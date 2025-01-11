@@ -1,5 +1,7 @@
 import logging
 
+import logger
+
 
 class Singleton(type):
     _instances = {}
